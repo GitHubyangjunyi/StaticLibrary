@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1C25334F23548B2800CE6CE2 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C25334E23548B2800CE6CE2 /* StaticLibrary.m */; };
 		1C25335023548B2800CE6CE2 /* StaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C25334D23548B2800CE6CE2 /* StaticLibrary.h */; };
+		1C25335923548BE200CE6CE2 /* StaticLibraryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C25335823548BE200CE6CE2 /* StaticLibraryClass.m */; };
+		1C25335B23548C6B00CE6CE2 /* StaticLibraryClass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C25335723548BE200CE6CE2 /* StaticLibraryClass.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +21,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				1C25335023548B2800CE6CE2 /* StaticLibrary.h in CopyFiles */,
+				1C25335B23548C6B00CE6CE2 /* StaticLibraryClass.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -28,6 +31,9 @@
 		1C25334A23548B2800CE6CE2 /* libStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C25334D23548B2800CE6CE2 /* StaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibrary.h; sourceTree = "<group>"; };
 		1C25334E23548B2800CE6CE2 /* StaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibrary.m; sourceTree = "<group>"; };
+		1C25335623548BBA00CE6CE2 /* StaticLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StaticLibrary.bundle; sourceTree = "<group>"; };
+		1C25335723548BE200CE6CE2 /* StaticLibraryClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibraryClass.h; sourceTree = "<group>"; };
+		1C25335823548BE200CE6CE2 /* StaticLibraryClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibraryClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 		1C25334123548B2800CE6CE2 = {
 			isa = PBXGroup;
 			children = (
+				1C25335623548BBA00CE6CE2 /* StaticLibrary.bundle */,
 				1C25334C23548B2800CE6CE2 /* StaticLibrary */,
 				1C25334B23548B2800CE6CE2 /* Products */,
 			);
@@ -62,6 +69,8 @@
 			children = (
 				1C25334D23548B2800CE6CE2 /* StaticLibrary.h */,
 				1C25334E23548B2800CE6CE2 /* StaticLibrary.m */,
+				1C25335723548BE200CE6CE2 /* StaticLibraryClass.h */,
+				1C25335823548BE200CE6CE2 /* StaticLibraryClass.m */,
 			);
 			path = StaticLibrary;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C25335923548BE200CE6CE2 /* StaticLibraryClass.m in Sources */,
 				1C25334F23548B2800CE6CE2 /* StaticLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
